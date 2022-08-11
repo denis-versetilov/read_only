@@ -1,0 +1,172 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "New table",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "New column",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "mode": "varchar",
+                    "length": 10,
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePartitionKey": true,
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "a2e17c60-752c-11ec-aedd-bd9b7d44bb9b",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "New column(1)",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "mode": "varchar",
+                    "length": 10,
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "a601cf30-752c-11ec-aedd-bd9b7d44bb9b",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "a0a3c160-752c-11ec-aedd-bd9b7d44bb9b"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "memory_optimized": false,
+            "collectionUsers": [],
+            "ifNotExist": true,
+            "on_commit": "PRESERVE ROWS",
+            "table_tablespace_name": "pg_default",
+            "GUID": "a09c4750-752c-11ec-aedd-bd9b7d44bb9b",
+            "partitioning": [
+                {
+                    "GUID": "a77fe3b0-752c-11ec-aedd-bd9b7d44bb9b",
+                    "partitionBy": "keys",
+                    "compositePartitionKey": [
+                        {
+                            "keyId": "a2e17c60-752c-11ec-aedd-bd9b7d44bb9b",
+                            "type": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "a09c4750-752c-11ec-aedd-bd9b7d44bb9b": "New table",
+        "a2e17c60-752c-11ec-aedd-bd9b7d44bb9b": "New column",
+        "a601cf30-752c-11ec-aedd-bd9b7d44bb9b": "New column(1)"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "a004c241-752c-11ec-aedd-bd9b7d44bb9b"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "a004c243-752c-11ec-aedd-bd9b7d44bb9b"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "a004c242-752c-11ec-aedd-bd9b7d44bb9b"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "v13.x",
+    "dbVendor": "PostgreSQL",
+    "tablespace_name": "pg_default",
+    "encoding": "UTF8",
+    "appTarget": "PostgreSQL",
+    "creationTS": "2022-01-14T11:25:06.532Z",
+    "GUID": "a004c240-752c-11ec-aedd-bd9b7d44bb9b",
+    "isLineageEnabled": false,
+    "lastModifTS": "2022-01-14T11:25:25.596Z",
+    "persistenceSchemaVersion": "5",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "PostgreSQL",
+        "pluginVersion": "0.1.7",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "5.3.5"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "a09c4750-752c-11ec-aedd-bd9b7d44bb9b",
+                        "x": 180,
+                        "y": 355,
+                        "width": 252,
+                        "height": 69,
+                        "color": {}
+                    }
+                ],
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
